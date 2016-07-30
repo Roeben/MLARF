@@ -1,0 +1,49 @@
+﻿#############
+#BETA EVENTS#
+#############
+
+add_namespace = beta
+#TRIGGER FOR BETA LANDING EVENT
+news_event = {
+	id = beta.1
+	hidden = yes
+	
+	fire_only_once = yes
+	
+	trigger = {
+		NOT = { TAG = BET }
+		date > 1939.4.18
+		date < 1939.4.20
+	}
+	
+	immediate = {
+		FROM = { news_event = { id = beta.2 } }
+	}
+	
+	option = {
+		name = beta.1.a
+	}
+}
+
+#BETA LANDING EVENT
+news_event = {
+	id = beta.2
+	title = beta.2.t
+	desc = beta.2.d
+	picture = GFX_beta_invasion_1
+	is_triggered_only = yes
+	
+	major = yes
+
+	mean_time_to_happen = { 
+		days = 1 
+		}
+
+	immediate = {
+		BET = { transfer_state = 619 }
+		}
+	
+	option = {
+		name = beta.2.a
+	}
+}
