@@ -2,7 +2,7 @@ equipments = {
 
 	beta_grappler_equipment = {
 		is_archetype = yes
-		is_buildable = no
+		is_buildable = yes
 		type = armor
 		group_by = archetype
 		
@@ -34,4 +34,9 @@ equipments = {
 			chromium = 3
 		}
 	}
+	beta_grappler_equipment_1 = {
+		archetype = beta_grappler_equipment		
+		priority = 90
+		visual_level = 0
+	}		
 }

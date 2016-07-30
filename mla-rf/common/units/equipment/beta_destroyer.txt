@@ -35,4 +35,9 @@ equipments = {
 			chromium = 4
 		}
 	}
+	beta_destroyer_equipment_1 = {
+		archetype = beta_destroyer_equipment		
+		priority = 90
+		visual_level = 0
+	}
 }

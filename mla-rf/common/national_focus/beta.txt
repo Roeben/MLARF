@@ -10,7 +10,67 @@ focus_tree = {
 		}
 	}
 	
-	default = no
+	#default = no
 
 
+	focus = {
+		id = beta_tank_dev
+		icon = GFX_goal_generic_secret_weapon
+		x = 1
+		y = 0
+		cost = 1
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			set_technology = { beta_tank = 1 }
+		}
+	}
+	
+	focus = {
+		id = beta_grappler_dev
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = beta_tank_dev }
+		x = 1
+		y = 1
+		cost = 4
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			set_technology = { beta_grappler = 1 }
+		}
+	}
+	
+	focus = {
+		id = beta_laser_dev
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = beta_grappler_dev }
+		x = 1
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			set_technology = { beta_laser = 1 }
+		}
+	}
+	focus = {
+		id = beta_destroyer_dev
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = beta_grappler_dev }
+		x = 3
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 1
+		}	
+		completion_reward = {
+			set_technology = { beta_destroyer = 1 }
+		}
+	}
+	
+	
+	
 }

@@ -4,7 +4,7 @@ equipments = {
 
 	beta_tank_equipment = {
 		is_archetype = yes
-		is_buildable = no
+		is_buildable = yes
 		type = infantry
 		group_by = archetype
 		
@@ -35,5 +35,10 @@ equipments = {
 		resources = {
 			steel = 2
 		}
+	}
+	beta_tank_equipment_1 = {
+		archetype = beta_tank_equipment		
+		priority = 90
+		visual_level = 0
 	}
 }
