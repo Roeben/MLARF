@@ -2,7 +2,7 @@ technologies = {
 	beta_tank = {
 
 		enable_equipments = {
-			beta_tank_equipment
+			beta_tank_equipment_1
 		}
 				
 		research_cost = 1.5 #Carrier Variant
@@ -27,7 +27,7 @@ technologies = {
 	beta_destroyer = {
 
 		enable_equipments = {
-			beta_destroyer_equipment
+			beta_destroyer_equipment_1
 		}
 				
 		research_cost = 1.5 #Carrier Variant
@@ -51,7 +51,7 @@ technologies = {
 	beta_laser = {
 
 		enable_equipments = {
-			beta_laser_equipment
+			beta_laser_equipment_1
 		}
 				
 		research_cost = 1.5 #Carrier Variant
@@ -75,7 +75,7 @@ technologies = {
 	beta_grappler = {
 
 		enable_equipments = {
-			beta_grappler_equipment
+			beta_grappler_equipment_1
 		}
 				
 		research_cost = 1.5 #Carrier Variant
