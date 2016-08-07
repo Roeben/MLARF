@@ -41,7 +41,12 @@ news_event = {
 
 	immediate = {
 		BET = { transfer_state = 619 }
+		add_resource = {
+			type = g-elements
+			amount = 10
+			state = 619
 		}
+	}
 	
 	option = {
 		name = beta.2.a
